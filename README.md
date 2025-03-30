@@ -3,35 +3,29 @@
 ## Overview
 This project implements a **Recurrent Neural Network (RNN)** for sequence-based tasks using PyTorch. It includes scripts for model training and evaluation.
 
-## Repository Structure
-```
-📂 Recurrent-Neural-Networks
-├── rnn.py                # Implementation of the RNN model
-├── train.py              # Training script
-├── test.py               # Testing and evaluation script
-├── dataset.py            # Dataset handling
-├── requirements.txt      # Dependencies and required libraries
-├── README.md             # Project documentation
-└── .gitignore            # Git ignore file
-```
 
-## Getting Started
-### Prerequisites
-- **Python 3.x**
-- **PyTorch**
-- Install dependencies using:
-  ```bash
-  pip install -r requirements.txt
-  ```
+# Modular Neural Network Framework
 
-## Usage
-### Training the Model
-Run the training script:
-```bash
-python train.py
-```
 
-### Evaluating the Model
-Run the test script:
-```bash
-python test.py
+A lightweight, modular implementation of neural network components from scratch, including **RNNs, LSTMs, and traditional layers** (convolutional, pooling, dropout, etc.). Designed for educational purposes and custom deep learning projects.
+
+## Project Structure
+
+├── Base.py # Base classes for layers/networks
+├── BatchNormalization.py # Batch normalization layer
+├── Constraints.py # Weight constraints
+├── Conv.py # Convolutional layer
+├── Dropout.py # Dropout layer
+├── Flatten.py # Flatten layer
+├── FullyConnected.py # Dense/fully connected layer
+├── Initializers.py # Weight initialization (Glorot, He, etc.)
+├── LSTM.py # LSTM layer implementation
+├── Loss.py # Loss functions (MSE, CrossEntropy)
+├── NeuralNetwork.py # Main neural network class
+├── Optimizers.py # Optimizers (SGD, Adam, RMSprop)
+├── Pooling.py # Pooling layers (Max, Average)
+├── RNN.py # Vanilla RNN layer
+├── ReLU.py # ReLU activation
+├── Sigmoid.py # Sigmoid activation
+├── SoftMax.py # Softmax activation
+├── TanH.py # Tanh activation
